@@ -1,0 +1,191 @@
+html,
+body {
+	height: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+.husk-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+}
+
+.husk {
+	height: 300px;
+	width: 240px;
+	perspective: none;
+	transform-style: preserve-3d;
+	transform-origin: center center;
+	animation: customrotate 20s ease-out infinite;
+}
+
+.h {
+
+	background: #00ff0a;
+
+
+	&.h1 {
+		height: 300px;
+		width: 80px;
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+
+	&.h2 {
+		height: 80px;
+		width: 80px;
+		position: absolute;
+		top: 110px;
+		left: 80px;
+	}
+
+	&.h3 {
+		height: 300px;
+		width: 80px;
+		position: absolute;
+		top: 0px;
+		left: 160px;
+	}
+
+	&.bg {
+		transform: translateZ(-80px);
+	}
+}
+
+.hb {
+	background: #247e28;
+
+	&.hb1 {
+		height: 300px;
+		width: 80px;
+		position: absolute;
+		top: 0;
+		left: -80px;
+		transform-origin: right;
+		transform: rotateY(-90deg);
+	}
+
+	&.hb2 {
+		height: 80px;
+		width: 80px;
+		position: absolute;
+		top: -80px;
+		left: 0;
+		transform-origin: bottom;
+		transform: rotateX(90deg);
+	}
+
+	&.hb3 {
+		height: 80px;
+		width: 80px;
+		position: absolute;
+		bottom: -80px;
+		left: 0;
+		transform-origin: top;
+		transform: rotateX(-90deg);
+	}
+
+	&.hb4 {
+		height: 110px;
+		width: 80px;
+		position: absolute;
+		top: 0;
+		left: 80px;
+		transform-origin: left;
+		transform: rotateY(90deg);
+	}
+
+	&.hb5 {
+		height: 110px;
+		width: 80px;
+		position: absolute;
+		bottom: 0;
+		left: 80px;
+		transform-origin: left;
+		transform: rotateY(90deg);
+	}
+
+	&.hb6 {
+		height: 300px;
+		width: 80px;
+		position: absolute;
+		top: 0;
+		left: 240px;
+		transform-origin: left;
+		transform: rotateY(90deg);
+	}
+
+	&.hb7 {
+		height: 80px;
+		width: 80px;
+		position: absolute;
+		top: -80px;
+		left: 160px;
+		transform-origin: bottom;
+		transform: rotateX(90deg);
+	}
+
+	&.hb8 {
+		height: 80px;
+		width: 80px;
+		position: absolute;
+		bottom: -80px;
+		left: 160px;
+		transform-origin: top;
+		transform: rotateX(-90deg);
+	}
+
+	&.hb9 {
+		height: 110px;
+		width: 80px;
+		position: absolute;
+		top: 0;
+		left: 160px;
+		transform-origin: left;
+		transform: rotateY(90deg);
+	}
+
+	&.hb10 {
+		height: 110px;
+		width: 80px;
+		position: absolute;
+		bottom: 0;
+		left: 160px;
+		transform-origin: left;
+		transform: rotateY(90deg);
+	}
+
+	&.hb11 {
+		height: 80px;
+		width: 80px;
+		position: absolute;
+		top: 110px;
+		left: 80px;
+		transform-origin: top;
+		transform: rotateX(-90deg);
+	}
+
+	&.hb12 {
+		height: 80px;
+		width: 80px;
+		position: absolute;
+		top: 190px;
+		left: 80px;
+		transform-origin: top;
+		transform: rotateX(-90deg);
+	}
+}
+
+
+@keyframes customrotate {
+	0% {
+		transform: none
+	}
+	100% {
+		transform: rotateZ(360deg) rotateX(360deg)
+	}
+}
