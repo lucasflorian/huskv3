@@ -1,0 +1,8 @@
+@keyframes customrotate {
+	0% {
+		transform: none
+	}
+	100% {
+		transform: rotateZ(360deg) rotateX(360deg)
+	}
+}
