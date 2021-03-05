@@ -5,7 +5,7 @@ body {
 	margin: 0;
 	overflow: hidden;
 	transform-style: preserve-3d;
-	perspective: 1000px;
+	perspective: 600px;
 	background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
 }
 
@@ -20,14 +20,15 @@ body {
 	justify-content: center;
 	align-items: center;
 	height: 100%;
-	animation: customrotate 20s ease-out infinite;
+	//animation: customrotate 20s ease-out infinite;
+	//transform:rotateX(41deg) rotateZ(39deg);
 	transform-origin: center;
 	transform-style: preserve-3d;
 }
 
 .husk {
 	height: 300px;
-	width: 800px;
+	width: 1080px;
 	perspective: none;
 	transform-style: preserve-3d;
 	transform-origin: center center;
@@ -242,6 +243,7 @@ body {
 		transform-origin: left;
 		transform: rotateY(90deg);
 	}
+
 	&.ub2 {
 		height: 80px;
 		width: 80px;
@@ -251,6 +253,7 @@ body {
 		transform-origin: top;
 		transform: rotateX(-90deg);
 	}
+
 	&.ub3 {
 		height: 220px;
 		width: 80px;
@@ -260,6 +263,7 @@ body {
 		transform-origin: left;
 		transform: rotateY(90deg);
 	}
+
 	&.ub4 {
 		height: 80px;
 		width: 80px;
@@ -269,6 +273,7 @@ body {
 		transform-origin: top;
 		transform: rotateX(-90deg);
 	}
+
 	&.ub5 {
 		height: 220px;
 		width: 80px;
@@ -278,6 +283,7 @@ body {
 		transform-origin: left;
 		transform: rotateY(90deg);
 	}
+
 	&.ub6 {
 		height: 80px;
 		width: 80px;
@@ -287,6 +293,7 @@ body {
 		transform-origin: top;
 		transform: rotateX(-90deg);
 	}
+
 	&.ub7 {
 		height: 300px;
 		width: 80px;
@@ -296,6 +303,7 @@ body {
 		transform-origin: left;
 		transform: rotateY(90deg);
 	}
+
 	&.ub8 {
 		height: 80px;
 		width: 240px;
@@ -315,6 +323,7 @@ body {
 		top: 0;
 		left: 560px;
 	}
+
 	&.s2 {
 		height: 30px;
 		width: 80px;
@@ -322,6 +331,7 @@ body {
 		top: 80px;
 		left: 560px;
 	}
+
 	&.s3 {
 		height: 80px;
 		width: 240px;
@@ -329,6 +339,7 @@ body {
 		top: 110px;
 		left: 560px;
 	}
+
 	&.s4 {
 		height: 30px;
 		width: 80px;
@@ -336,7 +347,163 @@ body {
 		top: 190px;
 		left: 720px;
 	}
+
 	&.s5 {
+		height: 80px;
+		width: 240px;
+		position: absolute;
+		bottom: 0;
+		left: 560px;
+	}
+}
+
+.sb {
+	&.sb1 {
+		height: 80px;
+		width: 240px;
+		position: absolute;
+		top: 0;
+		left: 560px;
+		transform-origin: top;
+		transform: rotateX(-90deg);
+	}
+	&.sb2 {
+		height: 190px;
+		width: 80px;
+		position: absolute;
+		top: 0;
+		left: 560px;
+		transform-origin: left;
+		transform: rotateY(90deg);
+	}
+	&.sb3{
+		height: 80px;
+		width: 160px;
+		position: absolute;
+		top: 110px;
+		left: 640px;
+		transform-origin: top;
+		transform: rotateX(-90deg);
+	}
+	&.sb4{
+		height: 80px;
+		width: 160px;
+		position: absolute;
+		top: 80px;
+		left: 640px;
+		transform-origin: top;
+		transform: rotateX(-90deg);
+	}
+	&.sb5{
+		height: 30px;
+		width: 80px;
+		position: absolute;
+		top: 80px;
+		left: 640px;
+		transform-origin: left;
+		transform: rotateY(90deg);
+	}
+	&.sb6{
+		height: 80px;
+		width: 160px;
+		position: absolute;
+		top: 190px;
+		left: 560px;
+		transform-origin: top;
+		transform: rotateX(-90deg);
+	}
+	&.sb7{
+		height: 80px;
+		width: 160px;
+		position: absolute;
+		bottom: 80px;
+		left: 560px;
+		transform-origin: bottom;
+		transform: rotateX(90deg);
+	}
+	&.sb8{
+		height: 30px;
+		width: 80px;
+		position: absolute;
+		bottom: 80px;
+		left: 720px;
+		transform-origin: left;
+		transform: rotateY(90deg);
+	}
+	&.sb9{
+		height: 80px;
+		width: 80px;
+		position: absolute;
+		bottom: 0;
+		left: 560px;
+		transform-origin: left;
+		transform: rotateY(90deg);
+	}
+	&.sb10{
+		height: 80px;
+		width: 240px;
+		position: absolute;
+		bottom: 0;
+		left: 560px;
+		transform-origin: bottom;
+		transform: rotateX(90deg);
+	}
+	&.sb11{
+		height: 80px;
+		width: 80px;
+		position: absolute;
+		top: 0;
+		left: 800px;
+		transform-origin: left;
+		transform: rotateY(90deg);
+	}
+	&.sb12{
+		height: 190px;
+		width: 80px;
+		position: absolute;
+		bottom: 0;
+		left: 800px;
+		transform-origin: left;
+		transform: rotateY(90deg);
+	}
+}
+
+
+
+.k {
+	&.k1 {
+		height: 300px;
+		width: 80px;
+		position: absolute;
+		top: 0;
+		left: 840px;
+	}
+
+	&.k2 {
+		height: 80px;
+		width: 80px;
+		position: absolute;
+		top: 110px;
+		left: 920px;
+	}
+
+	&.k3 {
+		height: 110px;
+		width: 80px;
+		position: absolute;
+		top: 0;
+		left: 1000px;
+	}
+
+	&.k4 {
+		height: 110px;
+		width: 80px;
+		position: absolute;
+		bottom: 0;
+		left: 1000px;
+	}
+
+	&.k5 {
 		height: 80px;
 		width: 240px;
 		position: absolute;
