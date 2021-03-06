@@ -24,6 +24,7 @@ body {
 	//transform:rotateX(41deg) rotateZ(39deg);
 	transform-origin: center;
 	transform-style: preserve-3d;
+	transition: transform .2s ease-out;
 }
 
 .husk {
