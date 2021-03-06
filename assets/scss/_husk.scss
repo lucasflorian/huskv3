@@ -38,6 +38,7 @@ body {
 
 .letter {
 	transform-style: preserve-3d;
+	transition: background-color .5s ease-out;
 }
 
 .h,
@@ -509,5 +510,151 @@ body {
 		position: absolute;
 		bottom: 0;
 		left: 560px;
+	}
+
+
+	&.kb1 {
+		height: 300px;
+		width: 80px;
+		position: absolute;
+		top: 0;
+		left: 840px;
+		transform-origin: left;
+		transform: rotateY(90deg);
+	}
+	&.kb2 {
+		height: 80px;
+		width: 80px;
+		position: absolute;
+		top: 0;
+		left: 840px;
+		transform-origin: top;
+		transform: rotateX(-90deg);
+	}
+	&.kb3 {
+		height: 80px;
+		width: 80px;
+		position: absolute;
+		top: 0;
+		left: 920px;
+		transform-origin: left;
+		transform: rotateY(90deg);
+	}
+	&.kb4 {
+		height: 80px;
+		width: 80px;
+		position: absolute;
+		top: 110px;
+		left: 920px;
+		transform-origin: top;
+		transform: rotateX(-90deg);
+	}
+	&.kb5 {
+		height: 110px;
+		width: 80px;
+		position: absolute;
+		top: 0;
+		left: 1000px;
+		transform-origin: left;
+		transform: rotateY(90deg);
+	}
+	&.kb6 {
+		height: 80px;
+		width: 80px;
+		position: absolute;
+		top: 0;
+		left: 1000px;
+		transform-origin: top;
+		transform: rotateX(-90deg);
+	}
+	&.kb7 {
+		height: 110px;
+		width: 80px;
+		position: absolute;
+		top: 0;
+		left: 1080px;
+		transform-origin: left;
+		transform: rotateY(90deg);
+	}
+	&.kb8 {
+		height: 80px;
+		width: 80px;
+		position: absolute;
+		top: 110px;
+		left: 1000px;
+		transform-origin: top;
+		transform: rotateX(-90deg);
+	}
+	&.kb9 {
+		height: 110px;
+		width: 80px;
+		position: absolute;
+		top: 80px;
+		left: 1000px;
+		transform-origin: left;
+		transform: rotateY(90deg);
+	}
+	&.kb10 {
+		height: 80px;
+		width: 80px;
+		position: absolute;
+		top: 190px;
+		left: 1000px;
+		transform-origin: top;
+		transform: rotateX(-90deg);
+	}
+	&.kb11 {
+		height: 110px;
+		width: 80px;
+		position: absolute;
+		bottom: 0;
+		left: 1080px;
+		transform-origin: left;
+		transform: rotateY(90deg);
+	}
+	&.kb12 {
+		height: 80px;
+		width: 80px;
+		position: absolute;
+		bottom: 0;
+		left: 1000px;
+		transform-origin: bottom;
+		transform: rotateX(90deg);
+	}
+	&.kb13 {
+		height: 110px;
+		width: 80px;
+		position: absolute;
+		bottom: 0;
+		left: 1000px;
+		transform-origin: left;
+		transform: rotateY(90deg);
+	}
+	&.kb14 {
+		height: 80px;
+		width: 80px;
+		position: absolute;
+		bottom: 110px;
+		left: 920px;
+		transform-origin: bottom;
+		transform: rotateX(90deg);
+	}
+	&.kb15 {
+		height: 110px;
+		width: 80px;
+		position: absolute;
+		bottom: 0;
+		left: 920px;
+		transform-origin: left;
+		transform: rotateY(90deg);
+	}
+	&.kb16 {
+		height: 80px;
+		width: 80px;
+		position: absolute;
+		bottom: 0;
+		left: 840px;
+		transform-origin: bottom;
+		transform: rotateX(90deg);
 	}
 }
